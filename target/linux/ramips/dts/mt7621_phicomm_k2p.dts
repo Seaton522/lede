@@ -47,11 +47,11 @@
 &spi0 {
 	status = "okay";
 
-	flash@0 {
+	m25p80@0 {
 		compatible = "jedec,spi-nor";
 		reg = <0>;
-		spi-max-frequency = <80000000>;
-		m25p,fast-read;
+		spi-max-frequency = <10000000>;
+		broken-flash-reset;
 
 		partitions {
 			compatible = "fixed-partitions";

@@ -111,12 +111,12 @@ jobs:
           CONFIG_PACKAGE_luci-app-turboacc=y
           CONFIG_PACKAGE_luci-app-turboacc_INCLUDE_OFFLOADING=y
           CONFIG_PACKAGE_luci-app-vlmcsd=y
-          CONFIG_PACKAGE_luci-theme-bootstrap=y
           CONFIG_PACKAGE_luci-app-ssr-plus=y
           CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_Xray=y
           CONFIG_PACKAGE_htop=y
           CONFIG_PACKAGE_automount=y
           CONFIG_PACKAGE_openssh-sftp-server=y
+          CONFIG_PACKAGE_luci-theme-argon=y
           CONFIG_PACKAGE_kmod-usb2=y
           CONFIG_PACKAGE_luci-app-hd-idle=y
           CONFIG_PACKAGE_luci-app-mwan3=y
@@ -126,13 +126,14 @@ jobs:
           CONFIG_PACKAGE_luci-app-adblock=y
           CONFIG_PACKAGE_luci-app-aria2=y
           CONFIG_PACKAGE_luci-app-transmission=y
+          CONFIG_PACKAGE_luci-app-qbittorrent_dynamic=y
+          CONFIG_PACKAGE_luci-app-qbittorrent=y
+          CONFIG_PACKAGE_luci-app-baidupcs-web=y
           CONFIG_PACKAGE_luci-app-guest-wifi=y
-          CONFIG_PACKAGE_luci-app-nps=y
-          CONFIG_PACKAGE_luci-app-qos=y
-          CONFIG_PACKAGE_luci-app-simple-adblock=y
-          CONFIG_PACKAGE_luci-app-syncdial=y
+          CONFIG_PACKAGE_luci-app-haproxy-tcp=y
           CONFIG_PACKAGE_luci-app-sqm=y
-          CONFIG_PACKAGE_luci-app-wrtbwmon=y
+          CONFIG_PACKAGE_luci-app-statistics=y
+          CONFIG_PACKAGE_luci-app-syncdial=y
           CONFIG_PACKAGE_luci-app-minidlna=y
           EOF
 

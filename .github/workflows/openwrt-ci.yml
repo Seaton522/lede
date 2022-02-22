@@ -134,7 +134,6 @@ jobs:
           CONFIG_PACKAGE_luci-app-sqm=y
           CONFIG_PACKAGE_luci-app-syncdial=y
           CONFIG_PACKAGE_luci-theme-argon=y
-          CONFIG_TARGET_PREINIT_IP="10.0.0.1"
           EOF
 
           #
